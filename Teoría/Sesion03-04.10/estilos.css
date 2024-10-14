@@ -1,6 +1,8 @@
 h1{
     color: brown;
 }
+
+/* para id */
 #t1{
     color: orange;
 }
@@ -10,4 +12,11 @@ h1{
 }
 #t3{
     font-weight: bold;
+}
+
+/* para clase */
+
+.hola {
+    color: aqua;
+    background-color: brown;
 }
