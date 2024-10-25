@@ -1,0 +1,59 @@
+p{
+    color: #00ff9d;
+}
+
+.p1{
+    color: aqua;font-family: Arial;font-style: italic;
+}
+
+.encabezado1
+{
+    color: coral;font-weight: bolder;font-family: Georgia;
+}
+.encabezado2
+{
+    color: #e5ff00;font-family: times New Roman;font-style: inherit;
+}
+
+.encabezado3
+{
+    color: blue;font-style: initial; font-family: Verdana;font-size:50px; font-weight: bolder;
+}
+
+.ol1
+{
+    color: rgb(21, 5, 161);font-style: italic;font-weight: bolder;
+}
+
+.li1
+{
+    color: blueviolet;font-weight: bolder;
+}
+
+.li2
+{
+    color: deepskyblue;font-weight: bolder;
+}
+
+ul
+{
+    color: #e5ff00;
+}
+
+.e1
+{
+    color:blue;font-weight: bolder;
+}
+
+.e2
+{
+    color: aqua;font-weight: bolder;
+}
+.e3
+{
+    color:chocolate;font-weight: bolder;
+}
+.ptx
+    {  
+        color: #0f0f0e; background-color: bisque; font-weight: bolder; font-size: 20px;
+     }
