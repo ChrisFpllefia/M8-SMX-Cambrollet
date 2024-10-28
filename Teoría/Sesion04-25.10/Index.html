@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lamborghini</title>
-   <link rel="stylesheet" href="Style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Meie+Script&display=swap" rel="stylesheet">
     
@@ -15,28 +15,39 @@
 
 
     <style>
-
-    *{
+    *{  
+        /* Esto es para poner el relleno del contenido */
         padding: 0;
+        /* Esto es para poner el margen */
         margin: 0;
     }   
         nav{
+        /* Aquí creamos el navegador */
             background-color: whitesmoke;
             padding: 40px;
             font-size: 20px;
             font-family: "Afacad flux";
         }
-        ul{
+        ul{ /* Esto es para crear una lista desordenada */
+
+            /* Display flex indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible. */
             display: flex;
-            gap:50px;
+            /* Esto indica que espacio debe tener entre cada elemento */
+            gap:60px;
+            /* Es para quitarle el estilo por defecto*/
             list-style: none;
         }
 
-        header{
+        header{ 
+            /* Es para poner una imagen de fondo */
             background-image: url("https://i.pinimg.com/originals/b1/22/59/b12259690a81d10422288d253119811a.jpg");
+            /* Esto sirve para alinear el texto a la izquierda,derecha o centro */
             text-align: center;
+            /* Esto es sirve para que no haya espacios en blanco y que se redimensione para que ocupe toda la pagina */
             background-size: cover;
+            /* Esto es para que ocupe el 90% de altura */
             height: 90%;
+            /* Esto es para ponerle un relleno al header. */
             padding: 150px;
         }
         html,
@@ -49,7 +60,7 @@
             width: 400px;
         }
 
-        header h1{
+        header  h1{
             color: whitesmoke;
             font-size: 50px;
             padding: 10px;
@@ -58,6 +69,7 @@
         header h2{
             color: lightgray;
             font-size: 30px;
+            /* Esto es para poner en mayuscula el texto */
             text-transform: uppercase;
             font-weight:normal;
             padding-top: 10px;
@@ -68,7 +80,9 @@
         header button{
             padding: 20px;
             background-color: goldenrod;
+            /* Esto es para quitar el borde */
             border: 0;
+            /* Esto es para ponerle un radio de 5px al borde, osea, que este mas redondo */
             border-radius: 5px;
 
         }
@@ -77,6 +91,7 @@
 
 
 </head>
+
 <body>
     
         <nav>
@@ -95,7 +110,11 @@
         <h2>You can't hide who you are</h2>
         <button>GET STARTED</button>
     </header>
+
+    <!-- Aquí se pone el contenido principal de la pagina -->
     <main></main>
+
+    <!-- Aquí va el pie de pagina -->
     <footer></footer>
 
 
