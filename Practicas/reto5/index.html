@@ -1,42 +1,91 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera web</title>
+    <title>Mi primera página web </title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+   
     <header>
         <nav>
             <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
                 <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="Inicio">
-        <h1 class="Welcome">Bienvenido a Desarrollo Web Creativo</h1>
-        <p class="Parrafo1">Transformo ideas en experiencias digitales impactantes. Mi objetivo es ayudarte a hacer crecer tu negocio a través de un diseño web innovador y estrategias de desarrollo a medida.</p>
 
-        <img src="mi_primera_web/diseño-web.jpg" alt="Imagen de bienvenida">
+    
+    <section id="inicio">
+        <h1>Bienvenido a Desarrollo Web Creativo</h1>
+        <p>Transformo ideas en experiencias digitales impactantes. Mi objetivo es ayudarte a hacer crecer tu negocio a través de un diseño web innovador y estrategias de desarrollo a medida.</p>
+        <img src="mi_primera_web/diseño-web.jpg">
     </section>
 
-    <section> 
-        <h2 id="Sobre mí">Sobre mí</h2>
-        <p>Soy un desarrollador web en formación</p>
+    
+    <section id="sobre-mi" class="seccion1">
+        <h2>Sobre Mí</h2>
+        <p>Soy un desarrollador web full-stack con más de 10 años de experiencia ayudando a empresas a mejorar su presencia digital. Mi enfoque está en la creación de soluciones eficientes y elegantes que se alinean con los objetivos del negocio.</p>
         <ul>
-            <li>Me gusta el desarrollo web.</li>
-            <li>Aprendo HTML, CSS y JavaScript.</li>
+            <li><strong>Experiencia:</strong> He trabajado con startups, agencias digitales y grandes corporaciones.</li>
+            <li><strong>Especialidades:</strong> Desarrollo web, aplicaciones móviles, diseño de interfaces de usuario (UI/UX).</li>
+            <li><strong>Herramientas:</strong> HTML5, CSS3, JavaScript, React, Node.js, WordPress, entre otros.</li>
+        </ul>
+    </section>
+
+    
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Te ofrezco una amplia gama de servicios diseñados para llevar tu proyecto al siguiente nivel.</p>
+        <ul>
+            <li><strong>Desarrollo Web Personalizado:</strong> Diseño y desarrollo de sitios web a medida, desde landing pages hasta plataformas complejas de comercio electrónico.</li>
+            <li><strong>Optimización SEO:</strong> Mejora la visibilidad de tu web en motores de búsqueda con estrategias SEO avanzadas.</li>
+            <li><strong>Aplicaciones Móviles:</strong> Desarrollo de apps nativas y multiplataforma para expandir tu presencia en dispositivos móviles.</li>
+            <li><strong>Mantenimiento y Soporte Técnico:</strong> Mantengo tu web en funcionamiento con actualizaciones constantes y un soporte proactivo.</li>
+        </ul>
+        <img src="mi_primera_web/blog.jpg" alt="Servicios">
+    </section>
+
+    
+    <section id="proyectos" class="seccion1">
+        <h2>Proyectos Recientes</h2>
+        <p>Aquí puedes ver algunos de los proyectos más recientes en los que he trabajado:</p>
+        <ul>
+            <li><strong>Sitio web de comercio electrónico:</strong> Desarrollo de una plataforma e-commerce para una tienda de moda que incluye integración de pagos y un sistema de gestión de inventario.</li>
+            <li><strong>Aplicación móvil de fitness:</strong> Creación de una app para Android e iOS que ofrece planes de entrenamiento personalizados y seguimiento de actividad.</li>
+            <li><strong>Rediseño de un blog corporativo:</strong> Actualización completa del diseño y la funcionalidad de un blog para una empresa tecnológica, mejorando la velocidad de carga y la experiencia de usuario.</li>
+        </ul>
+        <img src="mi_primera_web/blog2.jpg" alt="Proyectos recientes">
+    </section>
+
+ 
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si estás interesado en trabajar conmigo o tienes alguna pregunta, no dudes en ponerte en contacto a través de las siguientes plataformas:</p>
+        <ul>
+            <li><a href="mailto:contacto@desarrollocreativo.com"><i class="fas fa-envelope"></i> Correo Electrónico</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
         </ul>
     </section>
 
 
-
     <footer>
-        <p>&copy; 2024 Mi Primera Página Web. Todos los derechos reservados.</p>
+        <div class="contenido_footer">
+            <div class="informacion_footer">
+                <p>&copy; 2024 Desarrollo Web Creativo. Todos los derechos reservados.</p>
+            </div>
+            <div class="Iconos_footer">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:contacto@desarrollocreativo.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
