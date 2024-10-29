@@ -105,13 +105,14 @@ footer {
   font-size: 1.5em;
 }
 
-.footer-icons a {
-  color: #fff;
+.Iconos_footer a {
+  color: #ffffff;
   margin: 0 10px;
   text-decoration: none;
 }
 
-.footer-icons a:hover {
-  color: #007BFF;
+.Iconos_footer a:hover
+{
+  color: #000fff;
 }
 
