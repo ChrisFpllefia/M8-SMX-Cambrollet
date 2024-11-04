@@ -8,11 +8,43 @@ body{
     width: auto;
     max-width: 300px;
     display: inline-block;
+    
+    
 
     /* Padding, Arriba, Abajo, Derecha e Izquierda */
-    padding-top:50px;
+    /* padding-top:20px;
     padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-bottom: 80px; */
+    padding:25px 55px;
+
+   
+    border-color:purple;
+
+    /* border-width:20px; */
+    /* border-top-width:20px;
+    border-bottom-width:20px;
+    border-left-width:20px;
+    border-right-width:20px; */
+
+    border-width: 20px;
+    
+    /* double, dashed, dotted, groove, ridge */
+    
+    /* border-top-style:dotted;
+    border-bottom-style:double;
+    border-left-style:dashed;
+    border-right-style:ridge; */
+    border-style:dotted;
+
+    /* border-bottom-color:yellow;
+    border-top-color:black;
+    border-left-color:red;
+    Border-right-color:pink; */
+
+    border: 10px black solid
+
+
+    
 }
 
