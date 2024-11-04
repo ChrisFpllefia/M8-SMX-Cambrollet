@@ -1,0 +1,18 @@
+body{
+    font-family: Georgia;
+}
+
+.card{
+    background-color:royalblue;
+    color:white;
+    width: auto;
+    max-width: 300px;
+    display: inline-block;
+
+    /* Padding, Arriba, Abajo, Derecha e Izquierda */
+    padding-top:50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
