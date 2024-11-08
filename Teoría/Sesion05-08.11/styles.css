@@ -1,0 +1,29 @@
+html, body{
+    height: 100vh;
+    width: 100vh;
+}
+
+.main{
+    height: 50%;
+    width: 50%;
+    background-color: brown;
+    padding: 50px;
+    
+}
+.c1{
+    background-color: blue;
+    height: 100px;
+    width: 80%;
+    padding: 50px;
+    margin-right: 500px;
+    border: 10 px solid black ;
+}
+
+.c2{
+    background-color: red;
+    height: 100px;
+    width: 80%;
+    padding: 50px;
+    margin: 10px;
+    
+}
