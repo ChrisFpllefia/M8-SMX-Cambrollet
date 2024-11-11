@@ -5,7 +5,7 @@ html, body
     font-family: Tahoma;
 }
 
-/* El Display: flex se usa en el padre */
+/* El Display: flex se usa en el padre y el text align-items es solo para el display flex*/
 .p1{
     background-color: aqua;
     color: black;

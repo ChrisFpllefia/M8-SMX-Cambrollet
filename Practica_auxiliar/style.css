@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+main {
+  background-color: brown;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin: 1px 130px;
+}
+
+h1 {
+  border: yellow solid 2px;
+  font-family: Doto;
+  color: white;
+}
+
+h2 {
+  color: white;
+  border: #eb1f5c solid 5px;
+}
+
+#datos,
+#contenido {
+  color: rgb(137, 89, 181);
+  border: greenyellow solid 2px;
+  font-weight: 700;
+}
+
+.parrafo01 {
+  color: white;
+}
+
+#descripcion {
+  background-color: blue;
+}
