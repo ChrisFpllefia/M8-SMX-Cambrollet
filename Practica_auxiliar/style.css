@@ -24,17 +24,17 @@ h2 {
 }
 
 #datos,#contenido {
-  color: rgb(152, 86, 214);
+  color: #4c7cc4;
   border: rgb(115, 189, 5) solid 4px;
-  font-weight: 900;
+  font-weight: 700;
+  padding: 0px 3px;
   
 }
 
 
 
-
 #descripcion {
-  background-color:darkblue;
+  background-color:rgb(57, 57, 143);
   padding:50px 40px 50px 40px;
   text-align: center;
  
@@ -42,12 +42,13 @@ h2 {
 
 #descripcion>h2{
   border:none;
-  color:#eb1f5c
+  color:rgb(250, 165, 7);
 }
 
 ul>li{
-  margin:30px
-
+  margin:20px;
+  padding top:0;
+  
 }
 
 main>div>h1{

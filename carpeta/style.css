@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    color: aliceblue;
+    background-image: url(photo-1457369804613-52c61a468e7d.jpeg);
+}
+
+main{
+    font-family: Arial;
+    background-color: brown;
+    border-radius: 20px;
+    padding: 50px 35px;
+    margin: 1px 100px;
+}
+    
+h1{
+    font-family: Doto;
+    border: yellow solid 5px;
+    padding: 0 8px;
+}
+
+h2{
+    border: rgb(216, 39, 98) solid 8px;
+    padding: 0 5px;
+    margin-top: 45x;
+     
+}
+
+#datos, #contenido{
+    border: greenyellow solid 3px;
+    color: rgb(124, 7, 202);
+    
+    
+}
+
+#descripcion{
+    background-color:rgb(66, 66, 122);
+    padding: 60px 20px 40px 40px;
+    text-align:center;
+    border-radius: 2px;
+    
+}
+
+#descripcion>h2{
+    border: none;
+    color: orange;
+}
+
+ul{
+    padding: 0px 35px;
+    
+
+}
+
+li{
+    padding: 20px;
+
+}
+
+
+

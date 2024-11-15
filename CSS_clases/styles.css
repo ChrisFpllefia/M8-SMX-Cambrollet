@@ -6,10 +6,10 @@ body{
 .card{
     background-color:royalblue;
     color:black;
-    width: auto;
+    width: 300px;
     display: block;
-    max-width: 300px;
-   
+    
+    
  
     
     /* Padding, Arriba, Abajo, Derecha e Izquierda */
@@ -58,10 +58,5 @@ body{
 
 .card--one
 {
-    /* margin-top: 50px;
-    margin-bottom: 30px;
-    margin-left: 70px;
-    margin-right: 10px; */
-
-    margin: 50px 30px 70px 10px;
-}
+    margin:0 auto;
+}   
