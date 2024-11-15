@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    background-image: url(photo-1457369804613-52c61a468e7d.jpg);
+    padding: 50px;
+}
+
+main{
+    background-color: brown;
+    padding: 50px; 
+    border-radius: 20px;  
+}
+
+h1{
+    border: yellow 5px solid;
+    padding: 10px;
+    font-family: Doto;
+}
+
+h2{
+    border: palevioletred solid 3px;
+    padding: 5px;
+    color: white;
+}
+
+ul{
+    border: greenyellow solid 3px;
+    
+}
+
+ul li{
+    padding: 10px;
+    color: blue;
+}
+
+#descripcion{ 
+    background-color: darkslateblue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+
+}
+
+#descripcion h2{
+    color: pink;
+    border: none;
+}
+
+.title11{
+    color: white;
+}
+
