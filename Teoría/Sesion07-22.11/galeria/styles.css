@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: aliceblue;  
+    padding: 0;
+
+}
+
+footer{
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-weight:normal;
+    font-size:13px;
+    text-transform: capitalize;
+
+}
+
+.card {
+display: inline-block;
+width: 20%;
+margin: 10px;
+background-color:rgb(174, 174, 190);
+padding: 10px;
+border-radius: 10px;
+border: white solid 2px;
+box-shadow: box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+main{
+    text-align: center;
+    height: 70vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    background-color: aquamarine;
+    padding:40px 0;
+    margin-bottom: 70px;
+}
+
+.card22{
+    background-color: brown;
+    color: aliceblue;
+}

@@ -1,60 +1,58 @@
 body{
     margin: 0;
-    color: aliceblue;
     background-image: url(photo-1457369804613-52c61a468e7d.jpeg);
+    padding: 50px;
 }
 
 main{
-    font-family: Arial;
     background-color: brown;
     border-radius: 20px;
-    padding: 50px 35px;
-    margin: 1px 100px;
+    padding: 40px;
 }
-    
+
 h1{
-    font-family: Doto;
-    border: yellow solid 5px;
-    padding: 0 8px;
+    border: yellow 5px solid;
+    padding: 8px;   
+    font-family: doto;
+
 }
 
 h2{
-    border: rgb(216, 39, 98) solid 8px;
-    padding: 0 5px;
-    margin-top: 45x;
-     
-}
-
-#datos, #contenido{
-    border: greenyellow solid 3px;
-    color: rgb(124, 7, 202);
-    
-    
-}
-
-#descripcion{
-    background-color:rgb(66, 66, 122);
-    padding: 60px 20px 40px 40px;
-    text-align:center;
-    border-radius: 2px;
-    
-}
-
-#descripcion>h2{
-    border: none;
-    color: orange;
+    border: pink solid 5px;
+    padding: 3px;
+    color: rgb(255, 255, 255);
 }
 
 ul{
-    padding: 0px 35px;
+    border: greenyellow solid 5px;
+}
+
+ul li{
+    padding: 15px;
+    color: rgb(30, 131, 131);
+}
+
+#descripcion{
+    background-color: #20487c;
+    padding: 50px 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding-top: 65px;
     
-
 }
 
-li{
-    padding: 20px;
-
+#descripcion h2 {
+    color: orange;
+    border: none;
 }
 
+h2{
+    border: orange solid ;
+    color:rgb(255, 255, 255) ;
+    
+}
 
-
+.title112{
+    color: white;
+}
