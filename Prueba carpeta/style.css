@@ -1,0 +1,54 @@
+body{
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: antiquewhite;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    border: black solid 2px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+p{
+    font-weight: bolder;
+}
+
+main{
+    display:flex;
+    justify-content: space-around;
+    height: 90vh;
+    align-items: center;
+ 
+}
+
+
+.card{
+    background-color:beige;
+    padding: 10px;
+    border: solid  black 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+footer{
+    font-weight: bolder;
+    text-align: center;
+    background-color: beige;
+    padding: 20px 0 20px 0;
+    border: solid  black;
+    text-transform: capitalize;
+    font-size: 15px;ç
+    font-weight: normal ;
+    text-transform: capitalize;
+}
+

@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-image: url(hd-desktop-wallpaper-hd-dark-black-wallpapers-dark-black-wallpaper-dark-background-dark-wallpaper-23-1-1600x10002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+header{
+    background-color:rgb(37, 36, 36);
+    font-weight: bolder;
+    padding: 10px 0;
+   
+}
+
+nav ul{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center; 
+   list-style-type:none;
+ ;
+   
+}
+
+li{
+    margin:20px 
+}
+
+span{
+    color: orange
+}
+
+.pratoz{
+    font-size:larger;
+}
+
+.basic{
+font-family:Georgia;
+font-size: small;
+}
+
+
+.div1 {
+    padding 20px 0;
+    background-color: orange;
+    border-radius: 30px 30px;
+    font-size: small;
+    display: inline-block;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texto2{
+    font-size: small;
+}
