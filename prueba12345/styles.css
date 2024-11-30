@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-image: url(hd-desktop-wallpaper-hd-dark-black-wallpapers-dark-black-wallpaper-dark-background-dark-wallpaper-23-1-1600x10002.jpg);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    height: 100vh;
+}
+
+nav{
+    background-color: rgb(61, 57, 57);
+    padding-top: 2px;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-especial{
+    color: orange;
+    font-weight: bold;
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.nav-list{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+
+button{
+    background-color: orange;
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: aliceblue;
+    
+}
+
+span{
+    color: orange; 
+}
+
+.inicio1{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+height: 70vh;
+}
+
+
+.div1, .div2{
+    width: 40vh;
+}
+   
+   
+
+.div2{
+    background-color: orange;
+    border-radius: 20px;
+    width:30% ;
+    border:solid black; 
+    padding:30px 20px;
+    padding-right: 100px;
+    
+}
+
+
+
+
+

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-image: url(https://wallpapers.com/images/hd/black-texture-background-2k69joeryziritta.jpg);
+    background-repeat: none;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    height: 100vh;
+    }
+
+nav{
+    background-color: rgb(78, 76, 76);
+    padding-top: 2px;
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-especial{
+    color: orange;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-size: x-large;
+}
+
+.nav-list{
+    list-style-type: none;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+span{
+    color: orange;
+}
+
+
+.Inicio1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    height: 70vh;
+}
+
+.div2{
+    background-color: orange;
+    width: 70vh;
+    border-radius:20px;
+    padding: 10px 10px;
+    font-size: large;
+}
+
+.div1, .div2{
+    width:60vh ;
+}
