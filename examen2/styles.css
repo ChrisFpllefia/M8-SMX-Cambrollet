@@ -16,13 +16,11 @@ img{
     background-color: aliceblue;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
     gap: 50px;
     padding: 90px;
-    height: 100vh;
-
-    
-    
-    
+    height: 100vh; 
 }
 
 span{
