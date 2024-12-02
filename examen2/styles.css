@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    
+}
+
+header{
+    height: 100vh;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+}
+
+.inicio{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 90px;
+    height: 100vh;
+
+    
+    
+    
+}
+
+span{
+    font-weight: bold;
+}
+
+.div2{
+    font-size: larger;
+    width: 80%;
+
+}
+
+.p1{
+    width: 50%;
+}
+
+.p2{
+    width: 50%;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.up{
+    width: 40%;
+    font-weight: bold;
+}

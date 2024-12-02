@@ -61,15 +61,16 @@ button{
 }
 
 .div1,.div2{
-    width: 40%;
+    width: 20vh;
 }
 
 .div2{
     background-color: orange;
-    padding: 30px;
+    padding: 10px;
     border-radius: 20px;
     border: solid black;
-    width: 25%;
+    
+    
     
 }
 
