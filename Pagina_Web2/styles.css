@@ -67,6 +67,14 @@
   }
 
 /* video */
+video{
+  height: 100%;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+iframe{
+border-radius: 10px;
+}
 
 .Video-container{
   display: flex;
