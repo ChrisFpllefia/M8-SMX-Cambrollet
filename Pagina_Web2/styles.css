@@ -1,9 +1,9 @@
   *{
     margin: 0;
     padding: 0;
-    font-family: "Monserrat";
     font-size:20px;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma;
   }
 
   body{
