@@ -59,6 +59,14 @@
     margin-left: 5px;
     margin-top: 10px;
     font-size: larger;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .parrafo{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 7px;
   }
 
   p{
@@ -69,11 +77,12 @@
 /* video */
 video{
   height: 100%;
-  margin-top: 3%;
+  margin-top: 2%;
   border-radius: 10px;
 }
 iframe{
 border-radius: 10px;
+margin-top: 10px;
 }
 
 .Video-container{
