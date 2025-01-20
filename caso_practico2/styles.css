@@ -38,3 +38,21 @@ img{
     width: 50px;
 }
 
+/* Formulario */
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    background-color: #f0bcbc;
+    width: 100%;
+    height: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
