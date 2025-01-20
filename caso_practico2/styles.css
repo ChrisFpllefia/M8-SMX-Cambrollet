@@ -41,18 +41,22 @@ img{
 /* Formulario */
 
 h2{
-    display: flex;
-    justify-content: center;
+    padding:20px;
+    
+   
 }
 
 section{
     background-color: #f0bcbc;
     width: 100%;
     height: auto;
+
 }
 
 form{
     display: flex;
     flex-direction: column;
     width: 70%;
+    margin-left: 20px;
+    
 }
