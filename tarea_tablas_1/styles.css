@@ -3,8 +3,16 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
+    font-size: larger;
 }
 
+.main{
+    padding: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 /* Tablas general */
 .TablasDeMultiplicar{
@@ -22,6 +30,9 @@ body{
     color: black;
     font-weight: bolder;
 }
+
+
+
 
 
 /* Tabla del 2 */
