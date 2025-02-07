@@ -6,8 +6,6 @@ body{
 }
 
 
-
-
 /* Tablas general */
 .TablasDeMultiplicar{
     display: flex;
@@ -17,54 +15,69 @@ body{
     
 }
 
+
+/* Tabla del 1 */
 .Tabla1{
     background-color:rgb(240, 236, 35);
     color: black;
     font-weight: bolder;
 }
 
+
+/* Tabla del 2 */
 .Tabla2{
     background-color: rgb(4, 196, 196);
     color: black;
     font-weight: bolder;
 }
 
+/* Tabla del 3 */
 .Tabla3{
     background-color: rgb(233, 189, 229);
     color: black;
     font-weight: bolder;
 }
 
+/* Tabla del 4*/
 .Tabla4{
     background-color:rgb(173, 201, 145);
     color: black;
     font-weight: bolder;
 }
     
+/* Tabla del 5 */
 .Tabla5{
     background-color:rgb(192, 196, 224);
     color: black;
     font-weight: bolder;
 }
 
+
+/* Tabla del 6 */
 .Tabla6{
     background-color: rgb(247, 179, 190);ç
     color: black;
     font-weight: bolder;
 }
 
+
+/* Tabla del 7 */
 .Tabla7{
     background-color: rgb(75, 181, 243);
     color: black;
     font-weight: bolder;
 }
 
+
+/* Tabla del 8 */
 .Tabla8{
     background-color: aquamarine;
     color: black;
     font-weight: bolder;
 }
 
+
+/* Tabla del 9 */
 .Tabla9{
     background-color:lavender;
     color: black;
