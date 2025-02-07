@@ -1,0 +1,10 @@
+.tabla1{
+    display: flex;
+    justify-content: center;
+    gap: 30px   ;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
