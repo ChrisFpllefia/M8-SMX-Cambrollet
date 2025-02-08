@@ -7,8 +7,8 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: center;   
+    flex-direction: column;
 }
 
 /* Imagen reloj */
@@ -23,7 +23,6 @@ img{
         font-weight: bolder;
         width: 50%;
     }
-
 
 /* Columnas y filas */
     th, td{
@@ -77,3 +76,6 @@ img{
 .bachillerato{
     background-color: rgb(228, 74, 228);
 }
+
+
+
