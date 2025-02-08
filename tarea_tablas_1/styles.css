@@ -6,6 +6,11 @@ body{
     font-size: larger;
 }
 
+
+
+/* Tablas general */
+
+
 .main{
     padding: 350px;
     display: flex;
@@ -14,7 +19,11 @@ body{
     
 }
 
-/* Tablas general */
+th,td{
+    border-radius: 20px;
+    border: solid black 2px;
+}
+
 .TablasDeMultiplicar{
     display: flex;
     justify-content:center;
@@ -24,73 +33,102 @@ body{
 }
 
 
+
+
 /* Tabla del 1 */
 .Tabla1{
-    background-color:rgb(240, 236, 35);
     color: black;
     font-weight: bolder;
+    padding: 5px;
+    box-shadow: -webkit-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
 }
-
-
 
 
 
 /* Tabla del 2 */
 .Tabla2{
-    background-color: rgb(4, 196, 196);
     color: black;
     font-weight: bolder;
+    padding: 6px;
+    box-shadow: -webkit-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
 }
+
 
 /* Tabla del 3 */
 .Tabla3{
-    background-color: rgb(233, 189, 229);
     color: black;
     font-weight: bolder;
+    padding: 6px;
+    box-shadow: -webkit-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
 }
+
 
 /* Tabla del 4*/
 .Tabla4{
-    background-color:rgb(173, 201, 145);
     color: black;
     font-weight: bolder;
+    padding: 6px;
+    box-shadow: -webkit-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
 }
     
 /* Tabla del 5 */
 .Tabla5{
-    background-color:rgb(192, 196, 224);
     color: black;
     font-weight: bolder;
+    padding: 6px;
+    box-shadow: -webkit-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
 }
 
 
 /* Tabla del 6 */
 .Tabla6{
-    background-color: rgb(247, 179, 190);ç
     color: black;
     font-weight: bolder;
+    padding: 6px;
+    box-shadow: -webkit-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
 }
 
 
 /* Tabla del 7 */
 .Tabla7{
-    background-color: rgb(75, 181, 243);
     color: black;
     font-weight: bolder;
+    padding: 6px;
+    box-shadow: -webkit-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
 }
 
 
 /* Tabla del 8 */
 .Tabla8{
-    background-color: aquamarine;
     color: black;
     font-weight: bolder;
+    padding: 6px;
+    box-shadow: -webkit-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
 }
 
 
 /* Tabla del 9 */
 .Tabla9{
-    background-color:lavender;
     color: black;
     font-weight: bolder;
+    padding: 6px;
+    box-shadow: -webkit-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
+    box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
 }
