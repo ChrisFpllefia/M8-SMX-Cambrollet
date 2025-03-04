@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 /* caja */
@@ -9,6 +10,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+  
 }
 
 /* texto */
@@ -31,21 +33,31 @@ p{
 
 /* botón */
 button{
-    padding: 10px;
+    padding: 12px;
     background-color: #333;
     color: white;
     border-radius: 10px;
-    width: 100px;
+    width: 110px;
 }
 
 /* imagenes */
 
+
+img{
+    border-radius: 20px;
+}
+
 .image-box{
     display: flex;
     justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
 }
 
 .image-box2{
     display: flex;
     justify-content: center;
+    gap: 20px;
+    margin-top: 5px;
 }
+
