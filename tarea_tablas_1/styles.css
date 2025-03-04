@@ -6,8 +6,6 @@ body{
     font-size: larger;
 }
 
-
-
 /* Tablas general */
 
 
@@ -132,3 +130,5 @@ th,td{
     -moz-box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
     box-shadow: 10px 0px 11px 0px rgba(0,0,0,1);
 }
+
+
