@@ -1,68 +1,62 @@
-body{
-    padding: 0;
-    margin: 0;   
-    font-family: sans-serif;
+body {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2.2);
+    width: 1440px;
+    height: 1139px;
+    font-family:serif;  
 }
 
-/* Caja */
-
-.div1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 140px;
-    margin-bottom: 40px;
-
-
-}
+/* box */
+.first-one{
+    text-align: center;
     
-.div-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 50px;
-    margin-bottom: 80px;
-    align-items: center;
+}
+
+/* text */
+h1{
+    font-size: 70px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 60px;  
+}
+
+p{
+    font-size: 30px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 
-/* Texto */
-
-.big-title{
-    font-size:90px;
-}
-
-.text-p{
-    width: 400px;
-    line-height: 1.5
-}
-
-/* boton */
+/* button */
 
 button{
-    width: 155px;
-    height: 50px;
-    text-align: center;
-}
-
-.boton-ready{
-    padding: 15px;
-    border-radius: 15px;
-    background-color: #222;
-    color:white;
+    padding: 10px;
+    margin-top: 20px;
+    background-color:#333;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    font-size: medium;
 }
 
 /* imagen */
 
-.imagen{
-    display: flex;
-    justify-content:center;
-    margin: auto;
-    align-items: center;
-    
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
 }
 
+.div-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px; 
+}
 
-   
-
-
+.div-img2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px; 
+}
