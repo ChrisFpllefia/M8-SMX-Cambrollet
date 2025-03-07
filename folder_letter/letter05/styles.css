@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(multimedia/emile-seguin-R9OueKOtGGU-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: left center; 
+    width: 1440px;
+    height: 1024px;
+    box-shadow: 1px 5px 112px -11px rgba(0,0,0,0.75);
+    overflow: hidden; 
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    width: 600px;
+}
+
+p {
+    margin: 20px 0;
+    max-width: 400px;
+    font-size: 20px;
+    
+}
+
+.get-started-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
