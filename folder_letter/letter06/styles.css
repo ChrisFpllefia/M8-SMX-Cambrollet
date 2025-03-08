@@ -16,13 +16,13 @@ h1{
 }
 
 h2{
-    color: rgb(153, 153, 153);
+    color: rgb(143, 143, 143);
 }
 
 p{
     width: 400px;
     font-weight: 400;
-    color: rgb(135, 135, 135);
+    color: #333;
     
 }
 
