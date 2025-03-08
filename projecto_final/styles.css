@@ -4,7 +4,8 @@ body {
     line-height: 1.6;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Asegura que el footer quede en la parte inferior */
+    min-height: 100vh;
+    background-color:whitesmoke;
   }
   
   nav {
@@ -32,6 +33,11 @@ body {
     color: white;
   }
   
+  .Applepixel{
+    width: 200px;
+    height: 200px;
+    border: #333 solid 2px;
+  }
   .menu a {
     text-decoration: none;
     color: white;
