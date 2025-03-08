@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family:monospace;
+    line-height: 1.6;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+  }
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+
+  .logo{
+    color: white;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu a:hover {
+    background-color: #555;
+    border: 2px solid #fff;
+  }
+  .login-btn {
+    padding: 8px 15px;
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .apple {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .login-btn:hover {
+    background-color: #ff7961;
+    border: 2px solid #fff;
+  }
+  section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  section h2 {
+    color: #333;
+  }
+  section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .login-btn {
+      align-self: center;
+    }
+    section img {
+      max-width: 100%;
+    }
+  }
+  
