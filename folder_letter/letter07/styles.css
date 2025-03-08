@@ -1,41 +1,36 @@
 body {
-    height: 100vh; 
     width: 1440px;
     height: 1024px;
+    margin: 0 auto; 
+    overflow: hidden; 
     box-shadow: -2px 9px 43px 0px rgba(0, 0, 0, 0.75);
 }
 
-
-.container{
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70vh;
+    height: 700px;
 }
 
-
-.first-one{
+.first-one {
     display: flex;
     flex-direction: column;
-
 }
 
-
-/* Texto */
-.div-title{
+.div-title {
     font-size: 82px;
     width: 570px;
     margin: 0;
 }
 
-.div-text{
+.div-text {
     width: 550px;
-    font-size: xx-large;
+    font-size: 24px; 
     text-align: justify;
-    
 }
 
-button{
+button {
     background-color: #333;
     padding: 20px;
     color: white;
@@ -44,34 +39,31 @@ button{
     font-size: 20px;
 }
 
-.img-div{
+.img-div {
     width: 500px;
     height: 500px;
 }
 
-
-  .container2{
+.container2 {
     display: flex;
     position: relative;
-    padding: 50px 10px;
-    margin-top: -50px;
+    padding: 30px 10px;
     background-color: #252525;
     border-radius: 40px;
-    top: 10px;
-    margin: 0 20px;
+    margin: 0 auto; 
+    width: 1400px; 
 }
 
-.block-one{
+.block-one {
     margin-left: 50px;
 }
 
-.title2{
+.title2 {
     color: white;
     font-size: 40px;
 }
 
-.p2{
+.p2 {
     color: white;
-    
     font-size: 30px;
 }
