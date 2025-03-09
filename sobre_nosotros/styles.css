@@ -4,9 +4,13 @@ body {
     padding: 0;
     background-color: #1a1a1a;
     color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
 }
 
 .sobre-nosotros {
+    flex-grow: 1; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -46,3 +50,64 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+
+/* Estilo del navegador */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav .menu {
+    display: flex;
+    gap: 15px;
+}
+
+nav .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    nav .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Más estilos para la sección "Sobre Nosotros" */
+.sobre-nosotros .contenido {
+    max-width: 800px;
+}
+
+.sobre-nosotros .imagen img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+  }
+  
+  .icono {
+    width: 40px; 
+    height: auto; 
+  }
+  
