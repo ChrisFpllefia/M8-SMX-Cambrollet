@@ -1,0 +1,52 @@
+.contenedor {
+    width: 1440px;
+    height: 926px;
+    background-color: #9C2004; 
+    margin: auto;
+    box-shadow: -2px -2px 21px 0px rgba(0,0,0,0.75);
+    position: relative;
+}
+
+.elipse {
+    position: absolute;
+    width: 656px;
+    height: 656px;
+    top: 50%; 
+    left: 0;
+    transform: translateY(-50%); 
+}
+
+.imagen-encima {
+    width: 80%; 
+    height: auto;
+    position: absolute;
+    bottom: -135px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 2; 
+}
+
+.Text-contenedor {
+    max-width: 1440px;
+    max-height: 926px;
+    position: absolute;
+    top: 200px; 
+    right:400px;
+    margin: 0;
+    padding: 20px;
+    text-align: justify; 
+    word-spacing: 2px;
+}
+
+.Text-contenedor h1 {
+    line-height: 1.5;
+    letter-spacing: 1px; 
+    width: 300px;
+}
+
+.Text-contenedor p {
+    line-height: 1.8; 
+    letter-spacing: 0.5px; 
+    word-spacing: 2px; 
+    width: 300px;
+}
