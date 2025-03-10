@@ -5,6 +5,7 @@
     margin: auto;
     box-shadow: -2px -2px 21px 0px rgba(0,0,0,0.75);
     position: relative;
+    font-family:Impact;
 }
 
 .elipse {
@@ -30,18 +31,20 @@
     max-width: 1440px;
     max-height: 926px;
     position: absolute;
-    top: 200px; 
+    top: 100px; 
     right:400px;
     margin: 0;
     padding: 20px;
-    text-align: justify; 
     word-spacing: 2px;
+    color: white;
+    
 }
 
 .Text-contenedor h1 {
     line-height: 1.5;
     letter-spacing: 1px; 
     width: 300px;
+    font-size: 60px;
 }
 
 .Text-contenedor p {
@@ -49,4 +52,21 @@
     letter-spacing: 0.5px; 
     word-spacing: 2px; 
     width: 300px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 30px;
+    background-color: #E5B94B;
+    border-radius: 30px;
+    width: 160px;
+    height: 60px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    text-align: center; 
+    font-size: 20px;
+    border: none;
 }
