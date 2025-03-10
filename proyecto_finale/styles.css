@@ -162,10 +162,17 @@ body {
     background-color: #e6951c;
   }
   
+  .banner-section{
+    width: 500px;
+    border-radius: 30px;
+  }
+
+
+
   /* Footer */
   
   .footer {
-    background-color: black;
+    background-color: rgb(121, 134, 153);
     color: white;
     padding: 20px 0;
     font-size: 14px;
@@ -232,7 +239,7 @@ body {
   .footer-bottom {
     margin-top: 20px;
     text-align: center;
-    color: #bbb;
+    color: #fdfcfc;
     font-size: 12px;
   }
   
