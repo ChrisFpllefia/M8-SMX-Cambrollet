@@ -1,0 +1,42 @@
+body{
+    width: 1440px;
+    height: 954px;
+    box-shadow: -4px 2px 33px -7px rgba(0,0,0,0.75);
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* texto */
+
+h1{
+    font-size: 70px;
+    width: 600px;
+    padding:90px 0 30px 50px;
+    
+}
+
+h2{
+    color: rgb(143, 143, 143);
+}
+
+p{
+    width: 400px;
+    font-weight: 400;
+    color: #333;
+    
+}
+
+/* imagenes */
+
+.core-div {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    bottom: 30px; 
+    right: 0;
+    padding-top: 0;
+    gap: 70px;
+}
+
+
+
