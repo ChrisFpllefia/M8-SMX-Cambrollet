@@ -1,0 +1,63 @@
+body {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2.2);
+    width: 1440px;
+    height: 1139px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+
+/* box */
+.first-one{
+    text-align: center;
+    
+}
+
+/* text */
+h1{
+    font-size: 70px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 60px;  
+}
+
+p{
+    font-size: 30px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+/* button */
+
+button{
+    padding: 10px;
+    margin-top: 20px;
+    background-color:#333;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    font-size: medium;
+}
+
+/* imagen */
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.div-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px; 
+}
+
+.div-img2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px; 
+}

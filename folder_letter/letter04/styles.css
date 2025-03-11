@@ -11,8 +11,8 @@ body{
 }
 
 h1{
-    font-size: 60px;
-    width: 750px;
+    font-size: 80px;
+    width: 1000px;
    
     
 }
@@ -32,5 +32,5 @@ h1{
     display: flex;
     justify-content: space-around;
     padding-left: 30px;
-    
+    margin-top: 60px; 
 }

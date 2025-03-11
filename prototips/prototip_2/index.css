@@ -1,0 +1,57 @@
+body {
+    width: 1440px;
+    height: 1204px;
+    font-family:'Lucida Sans' ;
+    margin: 0;
+    padding: 0;
+    box-shadow: -2px 2px 26px 4px rgba(0,0,0,0.75);
+}
+
+/* Box */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: end; 
+    margin: 0 auto;
+    gap: 100px;
+      
+}
+
+
+/* Text */
+
+h1{
+    font-size: 100px;
+    
+}
+
+p{
+    width: 400px;
+    font-size: 20px;
+    margin-right:10px;
+
+}
+
+/* image*/
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: -120px; 
+}
+
+/* button */
+
+button{
+    background-color: #333;
+    color: white;
+    width: 150px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+
+
