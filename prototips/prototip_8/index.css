@@ -18,7 +18,7 @@ body {
 .div-slave1{
     flex-direction: column;
     margin-left: 50px;
-    margin-top: 70px;
+    margin-top: 80px;
     
 }
 
@@ -46,6 +46,7 @@ button{
     height: 55px;
     background-color:#252525;
     color: white;
+    font-size: 20px;
 }
 
 .bc1{
