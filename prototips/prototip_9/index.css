@@ -9,50 +9,15 @@ body {
 }
 
 
-.custom-block {
-    width: 491px;
-    height: 536px;
-    border-radius: 48px;
-    padding: 72px 48px;
-    background-color: rgba(128, 128, 128, 0.5);
-    backdrop-filter: blur(10px);
-    z-index: 3;
+.custom-block{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 40px;
-    position: relative; 
-    top: 40px; 
+    justify-content: space-between;
 }
 
 
-
-
-.text-custom {
-    z-index: 10;
-    margin-bottom:150px;
-}
-
-.text-block {
-    color: #FFFFFF;
-    font-size: 18px;
-    margin-left: 45px;
-}
-
-.text-block2 {
-    width: 500px;
-    margin-left: 50px;
-    color: #FFFFFF;
-    font-size: 24px;
-}
-  
-.title-block {
-    color: #FFFFFF;
-    font-size: 72px;
-    width: 600px;
-    height: 172px;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
+.text-custom{
+    flex-direction: column;
     
 }
+
+
