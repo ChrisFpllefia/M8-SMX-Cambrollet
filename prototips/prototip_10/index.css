@@ -1,0 +1,43 @@
+body {
+    width: 1440px;
+    height: 1131px;
+    box-shadow: -1px 0px 34px 0px rgba(0, 0, 0, 0.75);
+    font-family: "Sen", sans-serif;
+}
+
+.content-top{
+    background-color: #F2F2F2;
+    width: 1440px;
+    height: 813px;
+}
+
+.div-master{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.div-title{
+    font-size: 72px;
+    width: 500px;
+}
+
+.div-p{
+    font-size: 24px;
+    width: 480px;
+}
+
+.div-button{
+width: 288;
+height: 66;
+border-radius: 36px;
+gap: 10px;
+padding-top: 24px;
+padding-right: 48px;
+padding-bottom: 24px;
+padding-left: 48px;
+background-color: #252525;
+color: #F2F2F2;
+font-size: 24px;
+
+}
