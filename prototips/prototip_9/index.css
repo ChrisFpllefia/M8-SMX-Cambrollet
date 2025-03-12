@@ -1,27 +1,58 @@
-body{
+body {
     width: 1440px;
     height: 1024px;
     box-shadow: 0px 2px 34px 0px rgba(0,0,0,0.75);
     background-image: url(/prototips/prototip_9/multimedia/unsplash_xB4ExGcUai0.png);
     background-repeat: no-repeat;
     background-size: contain;
-    font-family:"Montserrat";
+    font-family: "Montserrat", sans-serif;
 }
-
-/* Bloque */
 
 
 .custom-block {
-    width: 491px; 
-    height: 536px; 
-    border-radius: 48px; 
-    padding: 72px 48px; 
-    background-color: rgba(128, 128, 128, 0.5); 
+    width: 491px;
+    height: 536px;
+    border-radius: 48px;
+    padding: 72px 48px;
+    background-color: rgba(128, 128, 128, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    position: relative; 
+    top: 40px; 
 }
 
-.text-block{
+
+
+
+.text-custom {
+    z-index: 10;
+    margin-bottom:150px;
+}
+
+.text-block {
     color: #FFFFFF;
     font-size: 18px;
+    margin-left: 45px;
+}
+
+.text-block2 {
+    width: 500px;
+    margin-left: 50px;
+    color: #FFFFFF;
+    font-size: 24px;
 }
   
-  
+.title-block {
+    color: #FFFFFF;
+    font-size: 72px;
+    width: 600px;
+    height: 172px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
