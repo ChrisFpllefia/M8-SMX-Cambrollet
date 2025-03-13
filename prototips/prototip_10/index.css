@@ -17,6 +17,12 @@ body {
 }
 
 
+.div-slave{
+    margin-top:100px;
+    margin-left: 40px;
+}
+
+
 .div-title{
     font-size: 72px;
     width: 500px;
@@ -39,5 +45,14 @@ padding-left: 48px;
 background-color: #252525;
 color: #F2F2F2;
 font-size: 24px;
+
+}
+
+.div-img{
+    width: 690px;
+    height: 671px;
+    top: 86px;
+    left: 686px;
+    margin-top: 60px;
 
 }
