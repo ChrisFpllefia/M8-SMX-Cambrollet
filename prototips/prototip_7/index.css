@@ -50,8 +50,10 @@ button {
     padding: 30px 10px;
     background-color: #252525;
     border-radius: 40px;
-    margin: 0 auto; 
-    width: 1400px; 
+    margin-right: 50px; 
+    width: 1312px; 
+    left: 64px;
+    gap: 8px;
 }
 
 .block-one {
